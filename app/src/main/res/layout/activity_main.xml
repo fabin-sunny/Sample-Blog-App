@@ -1,0 +1,68 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="60px"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="128dp"
+        android:background="@drawable/logonew" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USERNAME"
+        android:textColor="#FAF8F8"
+        android:textSize="8pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="   Enter the username"
+        android:textColorHint="#BC898787"
+        android:drawableStart="@drawable/baseline_account_circle_24"
+        android:id="@+id/uname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:textSize="8pt"
+        android:textColor="#FAF8F8"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_key_24"
+        android:hint="   Enter the password"
+        android:inputType="textPassword"
+        android:textColorHint="#BC898787"
+        android:id="@+id/pass"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:background="#B6DDE2"
+        android:text="SIGN IN"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_margin="20px"
+        android:background="#39A4D5"
+        android:text="SIGN UP" />
+
+
+
+</LinearLayout>

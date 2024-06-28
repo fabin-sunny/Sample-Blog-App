@@ -1,0 +1,116 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50px"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:textColor="#D5D2D2"
+        android:textSize="8pt"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the name"
+        android:textColorHint="#BC898787"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AGE"
+        android:textColor="#D5D2D2"
+        android:textSize="8pt"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the age"
+        android:inputType="number"
+        android:textColorHint="#BC898787"
+        android:id="@+id/age"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOBILE NUMBER"
+        android:textSize="8pt"
+        android:textColor="#D5D2D2"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the number"
+        android:textColorHint="#BC898787"
+        android:inputType="number"
+        android:id="@+id/mob"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USERNAME"
+        android:textColor="#D5D2D2"
+        android:textSize="8pt"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the username"
+        android:textColorHint="#BC898787"
+        android:id="@+id/username"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:textColor="#D5D2D2"
+        android:textSize="8pt"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the password"
+        android:inputType="textPassword"
+        android:textColorHint="#BC898787"
+        android:id="@+id/newpass"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONFIRM PASSWORD"
+        android:textSize="8pt"
+        android:textColor="#D5D2D2"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Re-Enter your password"
+        android:textColorHint="#BC898787"
+        android:inputType="textPassword"
+        android:id="@+id/conpass"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:background="#B6DDE2"
+        android:textColor="@color/black"
+        android:text="REGISTER" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backtolog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:textColor="@color/black"
+        android:background="#39A4D5"
+        android:text="BACK TO SIGNIN" />
+
+
+
+</LinearLayout>
