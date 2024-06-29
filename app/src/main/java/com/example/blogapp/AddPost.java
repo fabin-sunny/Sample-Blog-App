@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -29,7 +30,10 @@ public class AddPost extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                String getTiltle=ed1.getText().toString();
+                String getContent=ed2.getText().toString();
+                String getPostedby=ed3.getText().toString();
+                Toast.makeText(getApplicationContext(),getTiltle+" "+getContent+" "+getPostedby,Toast.LENGTH_SHORT).show();
             }
         });
         b2.setOnClickListener(new View.OnClickListener() {
